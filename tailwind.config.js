@@ -3,9 +3,15 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
       fontFamily: {
         'family': ['system-ui']
       }
+    }
     },
   },
   plugins: [],
