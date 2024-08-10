@@ -5,6 +5,26 @@
     <link rel="stylesheet" href="/src/output.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+    extend: {
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      fontFamily: {
+        'family': ['system-ui']
+      }
+    }
+    },
+  },
+  plugins: [],
+        }
+      </script>
+
 </head> 
 
 <body class="min-w-0 bg-black scroll-smooth">
