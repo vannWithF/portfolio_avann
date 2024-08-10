@@ -19,7 +19,7 @@
 
     <section id="home" data-aos="fade-up">
         <div class="flex justify-center my-48">
-            <img class="size-48 rounded-lg shadow-lg shadow-gray-700/50 hover:shadow-gray-600 border border-gray-700 mx-2" src="/views/Affan.jpg" alt="">
+            <img class="size-48 rounded-lg shadow-lg shadow-gray-700/50 hover:shadow-gray-600 border border-gray-700 mx-2" data-aos="flip-right" src="/views/Affan.jpg" alt="">
             <h1 class="font-thin text-white md:text-5xl lg:text-5xl xl:text-5xl sm:text-2xl flex items-center " data-aos="fade-left">Hi, I'm Affan Fauzan.</h1> 
             <div class="absolute my-40" data-aos="zoom-in">
             </div>
@@ -69,29 +69,29 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project 1 -->
             <div class="border border-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-                <img class="size-48 w-full" src="/path/to/project1-thumbnail.jpg" alt="Project 1">
+                <img class="size-48 w-full" src="/views/tsx reactjs.png" alt="Project 1">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-white mb-2">CBT_project</h3>
                     <p class="text-gray-400 mb-4">
-                        Sebuah platform e-commerce lengkap dengan fitur pencarian produk, filter, keranjang belanja, dan pembayaran.
+                        Sebuah website yang digunakan sebagai sarana ujian berbasis komputer atau multiplatform secara online.                    
                     </p>
                 </div>
             </div>
     
             <!-- Project 2 -->
             <div class="border border-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="300">
-                <img class="size-48 w-full" src="/path/to/project2-thumbnail.jpg" alt="Project 2">
+                <img class="size-48 w-full" src="/views/home.ejs - express-qr-present - Visual Studio Code 10_08_2024 21_48_46.png" alt="Project 2">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-white mb-2">Absensi QR-present</h3>
                     <p class="text-gray-400 mb-4">
-                        Dashboard interaktif untuk memantau data secara real-time, mengelola konten, dan menganalisis kinerja.
+                        Website yang menyediakan sistem absensi menggunakan kode QR untuk mencatat kehadiran.
                     </p>
                 </div>
             </div>
     
             <!-- Project 3 -->
             <div class="border border-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="400">
-                <img class="size-48 w-full" src="/path/to/project3-thumbnail.jpg" alt="Project 3">
+                <img class="size-48 w-full" src="/views/portofolio.html - portofolio_affan - Visual Studio Code 10_08_2024 22_00_39.png" alt="Project 3">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-white mb-2">Portfolio Website</h3>
                     <p class="text-gray-400 mb-4">
@@ -112,7 +112,7 @@
     
         <div class="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
             <!-- Contact Form -->
-            <div class="bg-black border border-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-black border border-white rounded-lg shadow-lg p-8" data-aos="flip-left" data-aos-delay="200">
                 <h3 class="text-2xl font-semibold text-white mb-4">Get in Touch</h3>
                 <form action="#" method="POST">
                     <div class="mb-4">
@@ -134,7 +134,7 @@
             </div>
     
             <!-- Contact Information -->
-            <div class="bg-black border border-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-black border border-white rounded-lg shadow-lg p-8" data-aos="flip-left" data-aos-delay="300">
                 <h3 class="text-2xl font-semibold text-white mb-4">Contact Information</h3>
                 <p class="text-gray-400 mb-4">
                     <span class="font-semibold">Email:</span> <a href="mailto:affanfanzan@gmail.com" class="text-indigo-500 hover:text-indigo-400">affanfanzan@gmail.com</a>
@@ -160,13 +160,21 @@
             </div>
         </div>
     </section>
+
+    <footer class="bg-black text-white py-4" data-aos="fade-up">
+        <div class="flex justify-center">
+            <p class="text-center text-sm">
+                &copy; 2024 Copyright by Avann. All rights reserved.
+            </p>
+        </div>
+    </footer>
     
     
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 1000,  // Durasi animasi (ms)
+            duration: 1500,  // Durasi animasi (ms)
             once: true,      // Animasi hanya sekali saat di-scroll
         });
     </script>
